@@ -31,8 +31,8 @@ In this project the solution was for us to bring order to the chaos: documenting
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* Created a Static IP for NMG.com
-* Created Organisational Units (OU)
-* Added Users to the four OUs created
-* Added Users in to their respective security groups.
-* Resolved ticket number NMG-0047 through proper investigation of the root cause, developed a hypothesis, Cross checked the hypothesis and finally resolving the issue with detailed documentation. 
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Implemented RBAC with security groups mapped to each department
+* Provisioned 15 user accounts with consistent naming conventions and attribute standards
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis
