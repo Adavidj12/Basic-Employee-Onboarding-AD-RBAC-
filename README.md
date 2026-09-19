@@ -15,7 +15,7 @@ Northstar Medical Group operate in healthcare, so this isn't just an IT housekee
 In this project the solution was for us to bring order to the chaos: documenting our AD structure, establishing proper user lifecycle processes (onboarding/offboarding), enforcing least-privilege access, and building an identity infrastructure that will survive an audit. I built an onboarding pipeline for Northstar employees in Windows server active directory, Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and user provisioning was secured.]
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://share.vidyard.com/watch/X8musJfntdmNyYX42L5AoW
 
 ## Tools Used
 * Windows Server
