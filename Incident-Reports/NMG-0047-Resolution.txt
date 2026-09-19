@@ -1,26 +1,22 @@
-Jane's account is currently sitting at Operation OU and in Operations-User group.
-she's not in the right OU and security group. Jane is suppose to be in HR OU and HR-User group.
-Jane is currently a member of Operations-User, Jane not a member of HR-User.
-She should not be in Operations OU and Operations-User.
+Jane's user identity is currently at Operation OU and in Operations-User group.
+I found that Jane was in Operations OU. Jane is suppose to be in HR OU and HR-User group because she's a HR Payroll Specialist.
 Jane Cooper is currently a member of Operations-User. She should be a member of HR-User.
 
 Reason: 
 
-Jane Cooper is a HR Payroll Specialist. She should be in the HR OU and a member of HR-User to access the shared drive of the HR department like her teammates. Being in the wrong OU and being a member of the wrong security group caused the access denied situation and also the reason for the completely different environment shown.
+Jane was placed in the Operations OU during initial provisioning, causing Operations Group Policy to apply to her workstation, explaining the desktop policy discrepancies reported in the ticket. She should be in the HR OU and a member of HR-User to access the shared drive of the HR department like her teammates.
 
 ==========================================================================================
 
 Ticket number: NMG-0047
 Affected user: Jane Cooper (jcooper@NMG.com)
-
 Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
 
-Root cause: Jane Cooper is currently a member of Operations-User. She should be a member of HR-User.
+Root cause: Jane Cooper was placed in the Operations OU and Security group during initial provisioning which granted the wrong scope of access. 
 
-Fix applied: I moved Jane Cooper's account to the right OU (HR OU), removed her account from Operations-User group to the right security group (HR-User).
+Fix applied: To resolve the discrepancies, Jane user identity was moved to HR OU and changed her membership from Operations-User group to HR-User.
 
 Verification: Upon verification the solution worked.
 
 Date resolved: September 15, 2026
-
 Resolved by: A. David John.
