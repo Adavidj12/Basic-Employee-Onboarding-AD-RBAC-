@@ -1,7 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-Northstar Medical Group is a fictional company. Their active Directory environment has fallen into disarray after years of management by an external MSP with no documented processes or governance:
+Northstar Medical Group is a fictional company. Their active Directory environment fell into disarray after years of management by an external MSP with no documented processes or governance:
+
+According to investigation, it was found that;
+
 Ad-hoc user management — accounts are created manually and inconsistently, with no standardized structure.
 Broken access control — users frequently have excessive permissions or lack the access they need; department/group organization is chaotic.
 No offboarding discipline — departed employees' accounts sometimes remain active for months, creating serious security exposure.
